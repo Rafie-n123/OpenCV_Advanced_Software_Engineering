@@ -1,0 +1,28 @@
+$INSTANCE Core_Layer cSubSystem
+  - modules/core/*
+  - modules/utility/*
+
+$INSTANCE Image_Processing cSubSystem
+  - modules/imgproc/*
+  - modules/photo/*
+  - modules/features2d/*
+
+$INSTANCE IO_and_UI cSubSystem
+  - modules/imgcodecs/*
+  - modules/videoio/*
+  - modules/highgui/*
+
+$INSTANCE Machine_Learning cSubSystem
+  - modules/ml/*
+  - modules/dnn/*
+
+$INSTANCE Vision_and_Calibration cSubSystem
+  - modules/calib3d/*
+  - modules/objdetect/*
+  - modules/stitching/*
+
+$INSTANCE GAPI_Framework cSubSystem
+  - modules/gapi/*
+
+$INSTANCE ThirdParty_and_External cSubSystem
+  - modules/3rdparty/*

@@ -1,0 +1,2941 @@
+{
+    "auto": {
+    },
+    "ents": {
+        "": [
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121
+        ],
+        "@l./modules/calib3d/include/opencv2/calib3d/calib3d_c.h": [
+            3
+        ],
+        "@l./modules/calib3d/perf/opencl/perf_stereobm.cpp": [
+            111
+        ],
+        "@l./modules/calib3d/perf/perf_affine2d.cpp": [
+            42
+        ],
+        "@l./modules/calib3d/perf/perf_cicrlesGrid.cpp": [
+            42
+        ],
+        "@l./modules/calib3d/perf/perf_main.cpp": [
+            42
+        ],
+        "@l./modules/calib3d/perf/perf_pnp.cpp": [
+            42
+        ],
+        "@l./modules/calib3d/perf/perf_precomp.hpp": [
+            42
+        ],
+        "@l./modules/calib3d/perf/perf_stereosgbm.cpp": [
+            42
+        ],
+        "@l./modules/calib3d/perf/perf_undistort.cpp": [
+            42
+        ],
+        "@l./modules/calib3d/src/ap3p.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/ap3p.h": [
+            1
+        ],
+        "@l./modules/calib3d/src/calibinit.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/calibration.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/calibration_base.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/calibration_handeye.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/checkchessboard.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/chessboard.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/chessboard.hpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/circlesgrid.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/circlesgrid.hpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/compat_ptsetreg.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/distortion_model.hpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/dls.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/dls.h": [
+            1
+        ],
+        "@l./modules/calib3d/src/epnp.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/epnp.h": [
+            1
+        ],
+        "@l./modules/calib3d/src/fisheye.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/fisheye.hpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/five-point.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/fundam.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/hal_replacement.hpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/homography_decomp.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/ippe.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/ippe.hpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/levmarq.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/main.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/p3p.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/p3p.h": [
+            1
+        ],
+        "@l./modules/calib3d/src/polynom_solver.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/polynom_solver.h": [
+            1
+        ],
+        "@l./modules/calib3d/src/precomp.hpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/ptsetreg.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/quadsubpix.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/rho.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/rho.h": [
+            1
+        ],
+        "@l./modules/calib3d/src/solvepnp.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/sqpnp.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/sqpnp.hpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/stereo_geom.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/stereobm.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/stereosgbm.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/triangulate.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/undistort.dispatch.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/undistort.simd.hpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/upnp.cpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/upnp.h": [
+            1
+        ],
+        "@l./modules/calib3d/src/usac.hpp": [
+            1
+        ],
+        "@l./modules/calib3d/src/usac/bundle.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/degeneracy.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/dls_solver.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/essential_solver.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/estimator.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/fundamental_solver.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/gamma_values.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/homography_solver.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/local_optimization.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/pnp_solver.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/quality.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/ransac_solvers.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/sampler.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/termination.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/src/usac/utils.cpp": [
+            29
+        ],
+        "@l./modules/calib3d/test/opencl/test_stereobm.cpp": [
+            108
+        ],
+        "@l./modules/calib3d/test/test_affine2d_estimator.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_affine3.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_affine3d_estimator.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_affine_partial2d_estimator.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_calibration_hand_eye.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_cameracalibration.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_cameracalibration_artificial.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_cameracalibration_badarg.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_cameracalibration_tilt.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_chessboardgenerator.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_chessboardgenerator.hpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_chesscorners.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_chesscorners_badarg.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_chesscorners_timing.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_compose_rt.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_cornerssubpix.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_decompose_projection.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_filter_homography_decomp.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_fisheye.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_fundam.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_homography.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_homography_decomp.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_main.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_modelest.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_posit.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_precomp.hpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_reproject_image_to_3d.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_solvepnp_ransac.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_stereomatching.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_translation3d_estimator.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_undistort.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_undistort_badarg.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_undistort_points.cpp": [
+            52
+        ],
+        "@l./modules/calib3d/test/test_usac.cpp": [
+            52
+        ],
+        "@l./modules/core/include/opencv2/core/affine.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/async.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/base.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/bindings_utils.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/bufferpool.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/check.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/core_c.h": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/cuda.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/cuda.inl.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/cuda_types.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/cv_cpu_dispatch.h": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/cv_cpu_helper.h": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/cvdef.h": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/cvstd.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/cvstd.inl.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/cvstd_wrapper.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/detail/async_promise.hpp": [
+            12
+        ],
+        "@l./modules/core/include/opencv2/core/detail/dispatch_helper.impl.hpp": [
+            12
+        ],
+        "@l./modules/core/include/opencv2/core/detail/exception_ptr.hpp": [
+            12
+        ],
+        "@l./modules/core/include/opencv2/core/directx.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/dualquaternion.inl.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/fast_math.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/hal/hal.hpp": [
+            2
+        ],
+        "@l./modules/core/include/opencv2/core/hal/interface.h": [
+            2
+        ],
+        "@l./modules/core/include/opencv2/core/hal/intrin.hpp": [
+            2
+        ],
+        "@l./modules/core/include/opencv2/core/hal/intrin_cpp.hpp": [
+            2
+        ],
+        "@l./modules/core/include/opencv2/core/hal/intrin_forward.hpp": [
+            2
+        ],
+        "@l./modules/core/include/opencv2/core/hal/intrin_math.hpp": [
+            2
+        ],
+        "@l./modules/core/include/opencv2/core/hal/intrin_neon.hpp": [
+            2
+        ],
+        "@l./modules/core/include/opencv2/core/hal/simd_utils.impl.hpp": [
+            2
+        ],
+        "@l./modules/core/include/opencv2/core/mat.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/mat.inl.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/matx.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/matx.inl.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/neon_utils.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/ocl.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/ocl_genbase.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/opencl/ocl_defs.hpp": [
+            77
+        ],
+        "@l./modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp": [
+            93
+        ],
+        "@l./modules/core/include/opencv2/core/opencl/runtime/opencl_clblas.hpp": [
+            63
+        ],
+        "@l./modules/core/include/opencv2/core/opencl/runtime/opencl_clfft.hpp": [
+            63
+        ],
+        "@l./modules/core/include/opencv2/core/opencl/runtime/opencl_core.hpp": [
+            63
+        ],
+        "@l./modules/core/include/opencv2/core/opencl/runtime/opencl_gl.hpp": [
+            63
+        ],
+        "@l./modules/core/include/opencv2/core/opengl.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/openvx/ovx_defs.hpp": [
+            48
+        ],
+        "@l./modules/core/include/opencv2/core/operations.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/optim.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/ovx.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/parallel/parallel_backend.hpp": [
+            75
+        ],
+        "@l./modules/core/include/opencv2/core/persistence.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/private.cuda.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/private.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/private/cuda_stubs.hpp": [
+            21
+        ],
+        "@l./modules/core/include/opencv2/core/private/cv_cpu_include_simd_declarations.hpp": [
+            21
+        ],
+        "@l./modules/core/include/opencv2/core/quaternion.inl.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/saturate.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/softfloat.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/sse_utils.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/traits.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/types.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/types_c.h": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/utility.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/utils/allocator_stats.hpp": [
+            14
+        ],
+        "@l./modules/core/include/opencv2/core/utils/allocator_stats.impl.hpp": [
+            14
+        ],
+        "@l./modules/core/include/opencv2/core/utils/buffer_area.private.hpp": [
+            14
+        ],
+        "@l./modules/core/include/opencv2/core/utils/configuration.private.hpp": [
+            14
+        ],
+        "@l./modules/core/include/opencv2/core/utils/lock.private.hpp": [
+            14
+        ],
+        "@l./modules/core/include/opencv2/core/utils/logger.defines.hpp": [
+            14
+        ],
+        "@l./modules/core/include/opencv2/core/utils/logger.hpp": [
+            14
+        ],
+        "@l./modules/core/include/opencv2/core/utils/logtag.hpp": [
+            14
+        ],
+        "@l./modules/core/include/opencv2/core/utils/plugin_loader.private.hpp": [
+            14
+        ],
+        "@l./modules/core/include/opencv2/core/utils/tls.hpp": [
+            14
+        ],
+        "@l./modules/core/include/opencv2/core/va_intel.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/version.hpp": [
+            6
+        ],
+        "@l./modules/core/include/opencv2/core/vsx_utils.hpp": [
+            6
+        ],
+        "@l./modules/core/misc/java/src/cpp/core_manual.cpp": [
+            98
+        ],
+        "@l./modules/core/misc/java/src/cpp/core_manual.hpp": [
+            98
+        ],
+        "@l./modules/core/perf/cuda/perf_gpumat.cpp": [
+            87
+        ],
+        "@l./modules/core/perf/opencl/perf_arithm.cpp": [
+            0
+        ],
+        "@l./modules/core/perf/opencl/perf_bufferpool.cpp": [
+            0
+        ],
+        "@l./modules/core/perf/opencl/perf_channels.cpp": [
+            0
+        ],
+        "@l./modules/core/perf/opencl/perf_dxt.cpp": [
+            0
+        ],
+        "@l./modules/core/perf/opencl/perf_gemm.cpp": [
+            0
+        ],
+        "@l./modules/core/perf/opencl/perf_matop.cpp": [
+            0
+        ],
+        "@l./modules/core/perf/opencl/perf_usage_flags.cpp": [
+            0
+        ],
+        "@l./modules/core/perf/perf_abs.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_addWeighted.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_allocation.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_arithm.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_bitwise.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_compare.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_convertTo.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_cvround.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_dft.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_dot.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_flip.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_inRange.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_io_base64.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_lut.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_main.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_mat.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_math.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_merge.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_minmaxloc.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_norm.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_precomp.hpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_reduce.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_sort.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_split.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_stat.cpp": [
+            53
+        ],
+        "@l./modules/core/perf/perf_umat.cpp": [
+            53
+        ],
+        "@l./modules/core/src/algorithm.cpp": [
+            20
+        ],
+        "@l./modules/core/src/alloc.cpp": [
+            20
+        ],
+        "@l./modules/core/src/arithm.cpp": [
+            20
+        ],
+        "@l./modules/core/src/arithm.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/arithm.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/arithm_ipp.hpp": [
+            20
+        ],
+        "@l./modules/core/src/array.cpp": [
+            20
+        ],
+        "@l./modules/core/src/async.cpp": [
+            20
+        ],
+        "@l./modules/core/src/batch_distance.cpp": [
+            20
+        ],
+        "@l./modules/core/src/bindings_utils.cpp": [
+            20
+        ],
+        "@l./modules/core/src/buffer_area.cpp": [
+            20
+        ],
+        "@l./modules/core/src/bufferpool.impl.hpp": [
+            20
+        ],
+        "@l./modules/core/src/channels.cpp": [
+            20
+        ],
+        "@l./modules/core/src/check.cpp": [
+            20
+        ],
+        "@l./modules/core/src/command_line_parser.cpp": [
+            20
+        ],
+        "@l./modules/core/src/conjugate_gradient.cpp": [
+            20
+        ],
+        "@l./modules/core/src/convert.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/convert.hpp": [
+            20
+        ],
+        "@l./modules/core/src/convert.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/convert_c.cpp": [
+            20
+        ],
+        "@l./modules/core/src/convert_scale.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/convert_scale.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/copy.cpp": [
+            20
+        ],
+        "@l./modules/core/src/count_non_zero.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/count_non_zero.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/cuda_gpu_mat.cpp": [
+            20
+        ],
+        "@l./modules/core/src/cuda_gpu_mat_nd.cpp": [
+            20
+        ],
+        "@l./modules/core/src/cuda_host_mem.cpp": [
+            20
+        ],
+        "@l./modules/core/src/cuda_info.cpp": [
+            20
+        ],
+        "@l./modules/core/src/cuda_stream.cpp": [
+            20
+        ],
+        "@l./modules/core/src/datastructs.cpp": [
+            20
+        ],
+        "@l./modules/core/src/directx.cpp": [
+            20
+        ],
+        "@l./modules/core/src/downhill_simplex.cpp": [
+            20
+        ],
+        "@l./modules/core/src/dxt.cpp": [
+            20
+        ],
+        "@l./modules/core/src/gl_core_3_1.cpp": [
+            20
+        ],
+        "@l./modules/core/src/gl_core_3_1.hpp": [
+            20
+        ],
+        "@l./modules/core/src/glob.cpp": [
+            20
+        ],
+        "@l./modules/core/src/hal_internal.cpp": [
+            20
+        ],
+        "@l./modules/core/src/hal_internal.hpp": [
+            20
+        ],
+        "@l./modules/core/src/hal_replacement.hpp": [
+            20
+        ],
+        "@l./modules/core/src/has_non_zero.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/has_non_zero.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/intel_gpu_gemm.inl.hpp": [
+            20
+        ],
+        "@l./modules/core/src/kmeans.cpp": [
+            20
+        ],
+        "@l./modules/core/src/lapack.cpp": [
+            20
+        ],
+        "@l./modules/core/src/lda.cpp": [
+            20
+        ],
+        "@l./modules/core/src/logger.cpp": [
+            20
+        ],
+        "@l./modules/core/src/lpsolver.cpp": [
+            20
+        ],
+        "@l./modules/core/src/lut.cpp": [
+            20
+        ],
+        "@l./modules/core/src/mathfuncs.cpp": [
+            20
+        ],
+        "@l./modules/core/src/mathfuncs.hpp": [
+            20
+        ],
+        "@l./modules/core/src/mathfuncs_core.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/mathfuncs_core.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/matmul.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/matmul.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/matrix.cpp": [
+            20
+        ],
+        "@l./modules/core/src/matrix_c.cpp": [
+            20
+        ],
+        "@l./modules/core/src/matrix_decomp.cpp": [
+            20
+        ],
+        "@l./modules/core/src/matrix_expressions.cpp": [
+            20
+        ],
+        "@l./modules/core/src/matrix_iterator.cpp": [
+            20
+        ],
+        "@l./modules/core/src/matrix_operations.cpp": [
+            20
+        ],
+        "@l./modules/core/src/matrix_sparse.cpp": [
+            20
+        ],
+        "@l./modules/core/src/matrix_transform.cpp": [
+            20
+        ],
+        "@l./modules/core/src/matrix_wrap.cpp": [
+            20
+        ],
+        "@l./modules/core/src/mean.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/mean.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/merge.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/merge.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/minmax.cpp": [
+            20
+        ],
+        "@l./modules/core/src/norm.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/norm.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/ocl.cpp": [
+            20
+        ],
+        "@l./modules/core/src/opencl/runtime/autogenerated/opencl_core_static_impl.hpp": [
+            107
+        ],
+        "@l./modules/core/src/opencl/runtime/opencl_clblas.cpp": [
+            76
+        ],
+        "@l./modules/core/src/opencl/runtime/opencl_clfft.cpp": [
+            76
+        ],
+        "@l./modules/core/src/opencl/runtime/opencl_core.cpp": [
+            76
+        ],
+        "@l./modules/core/src/opengl.cpp": [
+            20
+        ],
+        "@l./modules/core/src/out.cpp": [
+            20
+        ],
+        "@l./modules/core/src/ovx.cpp": [
+            20
+        ],
+        "@l./modules/core/src/parallel.cpp": [
+            20
+        ],
+        "@l./modules/core/src/parallel/factory_parallel.hpp": [
+            24
+        ],
+        "@l./modules/core/src/parallel/parallel.cpp": [
+            24
+        ],
+        "@l./modules/core/src/parallel/parallel.hpp": [
+            24
+        ],
+        "@l./modules/core/src/parallel/parallel_openmp.cpp": [
+            24
+        ],
+        "@l./modules/core/src/parallel/parallel_tbb.cpp": [
+            24
+        ],
+        "@l./modules/core/src/parallel/plugin_parallel_api.hpp": [
+            24
+        ],
+        "@l./modules/core/src/parallel/plugin_parallel_wrapper.impl.hpp": [
+            24
+        ],
+        "@l./modules/core/src/parallel/registry_parallel.hpp": [
+            24
+        ],
+        "@l./modules/core/src/parallel/registry_parallel.impl.hpp": [
+            24
+        ],
+        "@l./modules/core/src/parallel_impl.cpp": [
+            20
+        ],
+        "@l./modules/core/src/parallel_impl.hpp": [
+            20
+        ],
+        "@l./modules/core/src/pca.cpp": [
+            20
+        ],
+        "@l./modules/core/src/persistence.cpp": [
+            20
+        ],
+        "@l./modules/core/src/persistence.hpp": [
+            20
+        ],
+        "@l./modules/core/src/persistence_base64_encoding.cpp": [
+            20
+        ],
+        "@l./modules/core/src/persistence_base64_encoding.hpp": [
+            20
+        ],
+        "@l./modules/core/src/persistence_impl.hpp": [
+            20
+        ],
+        "@l./modules/core/src/persistence_json.cpp": [
+            20
+        ],
+        "@l./modules/core/src/persistence_types.cpp": [
+            20
+        ],
+        "@l./modules/core/src/persistence_xml.cpp": [
+            20
+        ],
+        "@l./modules/core/src/persistence_yml.cpp": [
+            20
+        ],
+        "@l./modules/core/src/precomp.hpp": [
+            20
+        ],
+        "@l./modules/core/src/rand.cpp": [
+            20
+        ],
+        "@l./modules/core/src/softfloat.cpp": [
+            20
+        ],
+        "@l./modules/core/src/split.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/split.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/stat.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/stat.hpp": [
+            20
+        ],
+        "@l./modules/core/src/stat.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/stat_c.cpp": [
+            20
+        ],
+        "@l./modules/core/src/stl.cpp": [
+            20
+        ],
+        "@l./modules/core/src/sum.dispatch.cpp": [
+            20
+        ],
+        "@l./modules/core/src/sum.simd.hpp": [
+            20
+        ],
+        "@l./modules/core/src/system.cpp": [
+            20
+        ],
+        "@l./modules/core/src/tables.cpp": [
+            20
+        ],
+        "@l./modules/core/src/trace.cpp": [
+            20
+        ],
+        "@l./modules/core/src/types.cpp": [
+            20
+        ],
+        "@l./modules/core/src/umatrix.cpp": [
+            20
+        ],
+        "@l./modules/core/src/umatrix.hpp": [
+            20
+        ],
+        "@l./modules/core/src/utils/datafile.cpp": [
+            15
+        ],
+        "@l./modules/core/src/utils/filesystem.cpp": [
+            15
+        ],
+        "@l./modules/core/src/utils/logtagconfig.hpp": [
+            15
+        ],
+        "@l./modules/core/src/utils/logtagconfigparser.cpp": [
+            15
+        ],
+        "@l./modules/core/src/utils/logtagconfigparser.hpp": [
+            15
+        ],
+        "@l./modules/core/src/utils/logtagmanager.cpp": [
+            15
+        ],
+        "@l./modules/core/src/utils/logtagmanager.hpp": [
+            15
+        ],
+        "@l./modules/core/src/utils/plugin_loader.impl.hpp": [
+            15
+        ],
+        "@l./modules/core/src/utils/samples.cpp": [
+            15
+        ],
+        "@l./modules/core/src/va_intel.cpp": [
+            20
+        ],
+        "@l./modules/core/test/ocl/test_arithm.cpp": [
+            54
+        ],
+        "@l./modules/core/test/ocl/test_channels.cpp": [
+            54
+        ],
+        "@l./modules/core/test/ocl/test_dft.cpp": [
+            54
+        ],
+        "@l./modules/core/test/ocl/test_gemm.cpp": [
+            54
+        ],
+        "@l./modules/core/test/ocl/test_image2d.cpp": [
+            54
+        ],
+        "@l./modules/core/test/ocl/test_matrix_expr.cpp": [
+            54
+        ],
+        "@l./modules/core/test/ocl/test_matrix_operation.cpp": [
+            54
+        ],
+        "@l./modules/core/test/ocl/test_opencl.cpp": [
+            54
+        ],
+        "@l./modules/core/test/ref_reduce_arg.impl.hpp": [
+            38
+        ],
+        "@l./modules/core/test/test_allocator.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_arithm.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_async.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_concatenation.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_conjugate_gradient.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_countnonzero.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_cuda.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_downhill_simplex.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_ds.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_dxt.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_eigen.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_hal_core.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_hasnonzero.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_intrin.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_intrin128.simd.hpp": [
+            38
+        ],
+        "@l./modules/core/test/test_intrin256.simd.hpp": [
+            38
+        ],
+        "@l./modules/core/test/test_intrin512.simd.hpp": [
+            38
+        ],
+        "@l./modules/core/test/test_intrin_emulator.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_intrin_utils.hpp": [
+            38
+        ],
+        "@l./modules/core/test/test_io.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_logger_replace.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_logtagconfigparser.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_logtagmanager.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_lpsolver.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_main.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_mat.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_math.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_misc.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_opencl.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_operations.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_precomp.hpp": [
+            38
+        ],
+        "@l./modules/core/test/test_ptr.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_quaternion.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_rand.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_rotatedrect.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_umat.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_utils.cpp": [
+            38
+        ],
+        "@l./modules/core/test/test_utils_tls.impl.hpp": [
+            38
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/garg.hpp": [
+            41
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/garray.hpp": [
+            41
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/gcomputation.hpp": [
+            41
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/gframe.hpp": [
+            41
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/gkernel.hpp": [
+            41
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/gmat.hpp": [
+            41
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/gopaque.hpp": [
+            41
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/gtyped.hpp": [
+            41
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/infer/ie.hpp": [
+            61
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/infer/onnx.hpp": [
+            61
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/infer/ov.hpp": [
+            61
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/infer/parsers.hpp": [
+            61
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/ocl/core.hpp": [
+            16
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/ocl/goclkernel.hpp": [
+            16
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/ocl/imgproc.hpp": [
+            16
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/operators.hpp": [
+            41
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/own/assert.hpp": [
+            46
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/own/convert.hpp": [
+            46
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/own/exports.hpp": [
+            46
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/own/saturate.hpp": [
+            46
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/own/scalar.hpp": [
+            46
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/own/types.hpp": [
+            46
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/render/render_types.hpp": [
+            27
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/s11n.hpp": [
+            41
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/s11n/base.hpp": [
+            92
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/streaming/desync.hpp": [
+            66
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/streaming/format.hpp": [
+            66
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/streaming/source.hpp": [
+            66
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/util/any.hpp": [
+            47
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/util/compiler_hints.hpp": [
+            47
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/util/optional.hpp": [
+            47
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/util/type_traits.hpp": [
+            47
+        ],
+        "@l./modules/gapi/include/opencv2/gapi/util/util.hpp": [
+            47
+        ],
+        "@l./modules/gapi/perf/common/gapi_core_perf_tests.cpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/common/gapi_core_perf_tests.hpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/common/gapi_core_perf_tests_inl.hpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/common/gapi_imgproc_perf_tests.cpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/common/gapi_imgproc_perf_tests.hpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/common/gapi_imgproc_perf_tests_inl.hpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/common/gapi_render_perf_tests.cpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/common/gapi_render_perf_tests.hpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/common/gapi_render_perf_tests_inl.hpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/common/gapi_video_perf_tests.cpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/common/gapi_video_perf_tests.hpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/common/gapi_video_perf_tests_inl.hpp": [
+            44
+        ],
+        "@l./modules/gapi/perf/cpu/gapi_core_perf_tests_cpu.cpp": [
+            43
+        ],
+        "@l./modules/gapi/perf/cpu/gapi_core_perf_tests_fluid.cpp": [
+            43
+        ],
+        "@l./modules/gapi/perf/cpu/gapi_imgproc_perf_tests_cpu.cpp": [
+            43
+        ],
+        "@l./modules/gapi/perf/cpu/gapi_imgproc_perf_tests_fluid.cpp": [
+            43
+        ],
+        "@l./modules/gapi/perf/cpu/gapi_video_perf_tests_cpu.cpp": [
+            43
+        ],
+        "@l./modules/gapi/perf/gpu/gapi_core_perf_tests_gpu.cpp": [
+            102
+        ],
+        "@l./modules/gapi/perf/gpu/gapi_imgproc_perf_tests_gpu.cpp": [
+            102
+        ],
+        "@l./modules/gapi/perf/internal/gapi_compiler_perf_tests.cpp": [
+            70
+        ],
+        "@l./modules/gapi/perf/perf_bench.cpp": [
+            45
+        ],
+        "@l./modules/gapi/perf/perf_main.cpp": [
+            45
+        ],
+        "@l./modules/gapi/perf/perf_precomp.hpp": [
+            45
+        ],
+        "@l./modules/gapi/perf/render/gapi_render_perf_tests_ocv.cpp": [
+            104
+        ],
+        "@l./modules/gapi/perf/streaming/gapi_streaming_source_perf_tests.cpp": [
+            109
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/common/exception.hpp": [
+            9
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/common/prof.hpp": [
+            9
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/kalman_filter/kalman_filter_no_opencv.cpp": [
+            13
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/kalman_filter/kalman_filter_no_opencv.hpp": [
+            13
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/mtt/hungarian_wrap.cpp": [
+            82
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/mtt/hungarian_wrap.hpp": [
+            82
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/mtt/objects_associator.cpp": [
+            82
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/mtt/objects_associator.hpp": [
+            82
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/mtt/rgb_histogram.cpp": [
+            82
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/mtt/rgb_histogram.hpp": [
+            82
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/object_tracker.cpp": [
+            51
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/prof_def.hpp": [
+            51
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/short_term_imageless_tracker.cpp": [
+            51
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/short_term_imageless_tracker.hpp": [
+            51
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/tracker.cpp": [
+            51
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/tracker.hpp": [
+            51
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/tracklet.cpp": [
+            51
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/tracklet.hpp": [
+            51
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/zero_term_imageless_tracker.cpp": [
+            51
+        ],
+        "@l./modules/gapi/src/3rdparty/vasot/src/components/ot/zero_term_imageless_tracker.hpp": [
+            51
+        ],
+        "@l./modules/gapi/src/api/garray.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gbackend.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gbackend_priv.hpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gcall.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gcall_priv.hpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gcommon.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gcomputation.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gcomputation_priv.hpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gframe.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/ginfer.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gkernel.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gmat.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gnode.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gnode.hpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gnode_priv.hpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gopaque.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gorigin.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gorigin.hpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gproto.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gproto_priv.hpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/grunarg.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/gscalar.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/kernels_core.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/kernels_imgproc.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/kernels_nnparsers.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/kernels_ot.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/kernels_stereo.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/kernels_streaming.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/kernels_video.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/media.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/operators.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/render.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/render_ocv.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/render_ocv.hpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/render_priv.hpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/rmat.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/api/s11n.cpp": [
+            23
+        ],
+        "@l./modules/gapi/src/backends/common/gbackend.hpp": [
+            58
+        ],
+        "@l./modules/gapi/src/backends/common/gcompoundbackend.cpp": [
+            58
+        ],
+        "@l./modules/gapi/src/backends/common/gcompoundkernel.cpp": [
+            58
+        ],
+        "@l./modules/gapi/src/backends/common/gmetabackend.cpp": [
+            58
+        ],
+        "@l./modules/gapi/src/backends/common/gmetabackend.hpp": [
+            58
+        ],
+        "@l./modules/gapi/src/backends/common/serialization.cpp": [
+            58
+        ],
+        "@l./modules/gapi/src/backends/common/serialization.hpp": [
+            58
+        ],
+        "@l./modules/gapi/src/backends/cpu/gcpubackend.cpp": [
+            40
+        ],
+        "@l./modules/gapi/src/backends/cpu/gcpubackend.hpp": [
+            40
+        ],
+        "@l./modules/gapi/src/backends/cpu/gcpucore.cpp": [
+            40
+        ],
+        "@l./modules/gapi/src/backends/cpu/gcpuimgproc.cpp": [
+            40
+        ],
+        "@l./modules/gapi/src/backends/cpu/gcpukernel.cpp": [
+            40
+        ],
+        "@l./modules/gapi/src/backends/cpu/gcpuot.cpp": [
+            40
+        ],
+        "@l./modules/gapi/src/backends/cpu/gcpustereo.cpp": [
+            40
+        ],
+        "@l./modules/gapi/src/backends/cpu/gcpuvideo.cpp": [
+            40
+        ],
+        "@l./modules/gapi/src/backends/cpu/gnnparsers.cpp": [
+            40
+        ],
+        "@l./modules/gapi/src/backends/cpu/gnnparsers.hpp": [
+            40
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidbackend.cpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidbackend.hpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidbuffer.cpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidbuffer_priv.hpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidcore.cpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidcore_func.dispatch.cpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidcore_func.hpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidcore_func.simd.hpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidimgproc.cpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidimgproc_func.dispatch.cpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidimgproc_func.hpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidimgproc_func.simd.hpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/fluid/gfluidutils.hpp": [
+            67
+        ],
+        "@l./modules/gapi/src/backends/ie/bindings_ie.cpp": [
+            69
+        ],
+        "@l./modules/gapi/src/backends/ie/giebackend.cpp": [
+            69
+        ],
+        "@l./modules/gapi/src/backends/ie/giebackend.hpp": [
+            69
+        ],
+        "@l./modules/gapi/src/backends/ie/giebackend/giewrapper.cpp": [
+            95
+        ],
+        "@l./modules/gapi/src/backends/oak/goak.cpp": [
+            81
+        ],
+        "@l./modules/gapi/src/backends/oak/goak_memory_adapters.cpp": [
+            81
+        ],
+        "@l./modules/gapi/src/backends/oak/goakbackend.cpp": [
+            81
+        ],
+        "@l./modules/gapi/src/backends/oak/oak_memory_adapters.hpp": [
+            81
+        ],
+        "@l./modules/gapi/src/backends/ocl/goclbackend.cpp": [
+            4
+        ],
+        "@l./modules/gapi/src/backends/ocl/goclbackend.hpp": [
+            4
+        ],
+        "@l./modules/gapi/src/backends/ocl/goclcore.cpp": [
+            4
+        ],
+        "@l./modules/gapi/src/backends/ocl/goclcore.hpp": [
+            4
+        ],
+        "@l./modules/gapi/src/backends/ocl/goclimgproc.cpp": [
+            4
+        ],
+        "@l./modules/gapi/src/backends/ocl/goclimgproc.hpp": [
+            4
+        ],
+        "@l./modules/gapi/src/backends/ocl/goclkernel.cpp": [
+            4
+        ],
+        "@l./modules/gapi/src/backends/onnx/bindings_onnx.cpp": [
+            68
+        ],
+        "@l./modules/gapi/src/backends/onnx/coreml_ep.cpp": [
+            68
+        ],
+        "@l./modules/gapi/src/backends/onnx/coreml_ep.hpp": [
+            68
+        ],
+        "@l./modules/gapi/src/backends/onnx/dml_ep.cpp": [
+            68
+        ],
+        "@l./modules/gapi/src/backends/onnx/dml_ep.hpp": [
+            68
+        ],
+        "@l./modules/gapi/src/backends/onnx/gonnxbackend.cpp": [
+            68
+        ],
+        "@l./modules/gapi/src/backends/onnx/gonnxbackend.hpp": [
+            68
+        ],
+        "@l./modules/gapi/src/backends/ov/bindings_ov.cpp": [
+            19
+        ],
+        "@l./modules/gapi/src/backends/ov/govbackend.cpp": [
+            19
+        ],
+        "@l./modules/gapi/src/backends/ov/govbackend.hpp": [
+            19
+        ],
+        "@l./modules/gapi/src/backends/plaidml/gplaidmlbackend.cpp": [
+            90
+        ],
+        "@l./modules/gapi/src/backends/plaidml/gplaidmlcore.cpp": [
+            90
+        ],
+        "@l./modules/gapi/src/backends/python/gpythonbackend.cpp": [
+            80
+        ],
+        "@l./modules/gapi/src/backends/render/ft_render.cpp": [
+            30
+        ],
+        "@l./modules/gapi/src/backends/render/ft_render.hpp": [
+            30
+        ],
+        "@l./modules/gapi/src/backends/render/grenderocv.cpp": [
+            30
+        ],
+        "@l./modules/gapi/src/backends/streaming/gstreamingbackend.cpp": [
+            103
+        ],
+        "@l./modules/gapi/src/backends/streaming/gstreamingbackend.hpp": [
+            103
+        ],
+        "@l./modules/gapi/src/backends/streaming/gstreamingkernel.hpp": [
+            103
+        ],
+        "@l./modules/gapi/src/compiler/gcompiled.cpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gcompiled_priv.hpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gcompiler.cpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gcompiler.hpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gislandmodel.cpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gislandmodel.hpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gmodel.cpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gmodel.hpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gmodel_priv.hpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gmodelbuilder.cpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gmodelbuilder.hpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gobjref.hpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gstreaming.cpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/gstreaming_priv.hpp": [
+            56
+        ],
+        "@l./modules/gapi/src/compiler/passes/dump_dot.cpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/exec.cpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/helpers.cpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/helpers.hpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/intrin.cpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/islands.cpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/kernels.cpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/meta.cpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/passes.hpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/pattern_matching.cpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/pattern_matching.hpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/perform_substitution.cpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/streaming.cpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/passes/transformations.cpp": [
+            79
+        ],
+        "@l./modules/gapi/src/compiler/transactions.hpp": [
+            56
+        ],
+        "@l./modules/gapi/src/executor/conc_queue.hpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gabstractexecutor.cpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gabstractexecutor.hpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gabstractstreamingexecutor.cpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gabstractstreamingexecutor.hpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gasync.cpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gexecutor.cpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gexecutor.hpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gstreamingexecutor.cpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gstreamingexecutor.hpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gtbbexecutor.cpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gtbbexecutor.hpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gthreadedexecutor.cpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/gthreadedexecutor.hpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/last_value.hpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/thread_pool.cpp": [
+            32
+        ],
+        "@l./modules/gapi/src/executor/thread_pool.hpp": [
+            32
+        ],
+        "@l./modules/gapi/src/logger.hpp": [
+            59
+        ],
+        "@l./modules/gapi/src/precomp.hpp": [
+            59
+        ],
+        "@l./modules/gapi/src/pysrc/python_stream_source.cpp": [
+            105
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamer_buffer_utils.cpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamer_buffer_utils.hpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamer_media_adapter.cpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamer_media_adapter.hpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamer_pipeline_facade.cpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamer_pipeline_facade.hpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamerenv.cpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamerenv.hpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamerpipeline.cpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamerpipeline_priv.hpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamerptr.hpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamersource.cpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/gstreamer/gstreamersource_priv.hpp": [
+            5
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/accel_policy_cpu.cpp": [
+            17
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/accel_policy_cpu.hpp": [
+            17
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/accel_policy_dx11.cpp": [
+            17
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/accel_policy_dx11.hpp": [
+            17
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/accel_policy_interface.hpp": [
+            17
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/accel_policy_va_api.cpp": [
+            17
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/accel_policy_va_api.hpp": [
+            17
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/dx11_alloc_resource.cpp": [
+            17
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/dx11_alloc_resource.hpp": [
+            17
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/surface/base_frame_adapter.cpp": [
+            11
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/surface/base_frame_adapter.hpp": [
+            11
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/surface/cpu_frame_adapter.cpp": [
+            11
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/surface/cpu_frame_adapter.hpp": [
+            11
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/surface/dx11_frame_adapter.cpp": [
+            11
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/surface/dx11_frame_adapter.hpp": [
+            11
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/surface/surface.cpp": [
+            11
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/surface/surface.hpp": [
+            11
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/surface/surface_pool.cpp": [
+            11
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/surface/surface_pool.hpp": [
+            11
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/utils/elastic_barrier.hpp": [
+            73
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/utils/shared_lock.cpp": [
+            73
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/accelerators/utils/shared_lock.hpp": [
+            73
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/cfg_param_device_selector.cpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/cfg_param_device_selector.hpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/cfg_params.cpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/cfg_params_parser.cpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/cfg_params_parser.hpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/data_provider_defines.hpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/data_provider_dispatcher.cpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/data_provider_dispatcher.hpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/data_provider_interface_exception.cpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/default.cpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/demux/async_mfp_demux_data_provider.cpp": [
+            106
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/device_selector_interface.cpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/decode/decode_engine_legacy.cpp": [
+            86
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/decode/decode_engine_legacy.hpp": [
+            86
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/decode/decode_session.cpp": [
+            86
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/engine_session.cpp": [
+            8
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/engine_session.hpp": [
+            8
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/preproc/preproc_dispatcher.cpp": [
+            62
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/preproc/preproc_dispatcher.hpp": [
+            62
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/preproc/preproc_engine.cpp": [
+            62
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/preproc/preproc_session.cpp": [
+            62
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/preproc_defines.hpp": [
+            8
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/preproc_engine_interface.cpp": [
+            8
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/preproc_engine_interface.hpp": [
+            8
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/processing_engine_base.cpp": [
+            8
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/processing_engine_base.hpp": [
+            8
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/transcode/transcode_engine_legacy.cpp": [
+            94
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/transcode/transcode_engine_legacy.hpp": [
+            94
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/engine/transcode/transcode_session.cpp": [
+            94
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/file_data_provider.cpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/file_data_provider.hpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/source.cpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/source_priv.cpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/source_priv.hpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/utils.cpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/onevpl/utils.hpp": [
+            35
+        ],
+        "@l./modules/gapi/src/streaming/queue_source.cpp": [
+            99
+        ],
+        "@l./modules/gapi/src/utils/itt.cpp": [
+            64
+        ],
+        "@l./modules/gapi/src/utils/itt.hpp": [
+            64
+        ],
+        "@l./modules/gapi/test/common/gapi_compoundkernel_tests.cpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_core_tests.cpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_core_tests.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_core_tests_common.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_core_tests_inl.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_imgproc_tests.cpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_imgproc_tests.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_imgproc_tests_common.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_imgproc_tests_inl.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_operators_tests.cpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_operators_tests.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_operators_tests_inl.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_parsers_tests_common.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_render_tests.cpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_render_tests.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_stereo_tests.cpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_stereo_tests.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_stereo_tests_inl.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_streaming_tests_common.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_tests_common.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_tests_helpers.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_video_tests.cpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_video_tests.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_video_tests_common.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/common/gapi_video_tests_inl.hpp": [
+            26
+        ],
+        "@l./modules/gapi/test/cpu/gapi_core_tests_cpu.cpp": [
+            36
+        ],
+        "@l./modules/gapi/test/cpu/gapi_core_tests_fluid.cpp": [
+            36
+        ],
+        "@l./modules/gapi/test/cpu/gapi_imgproc_tests_cpu.cpp": [
+            36
+        ],
+        "@l./modules/gapi/test/cpu/gapi_imgproc_tests_fluid.cpp": [
+            36
+        ],
+        "@l./modules/gapi/test/cpu/gapi_ocv_stateful_kernel_test_utils.hpp": [
+            36
+        ],
+        "@l./modules/gapi/test/cpu/gapi_ocv_stateful_kernel_tests.cpp": [
+            36
+        ],
+        "@l./modules/gapi/test/cpu/gapi_operators_tests_cpu.cpp": [
+            36
+        ],
+        "@l./modules/gapi/test/cpu/gapi_operators_tests_fluid.cpp": [
+            36
+        ],
+        "@l./modules/gapi/test/cpu/gapi_ot_tests_cpu.cpp": [
+            36
+        ],
+        "@l./modules/gapi/test/cpu/gapi_stereo_tests_cpu.cpp": [
+            36
+        ],
+        "@l./modules/gapi/test/cpu/gapi_video_tests_cpu.cpp": [
+            36
+        ],
+        "@l./modules/gapi/test/executor/gtbbexecutor_internal_tests.cpp": [
+            100
+        ],
+        "@l./modules/gapi/test/gapi_array_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_async_test.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_basic_hetero_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_compile_args_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_desc_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_fluid_parallel_rois_test.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_fluid_resize_test.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_fluid_roi_test.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_fluid_test.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_fluid_test_kernels.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_fluid_test_kernels.hpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_frame_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_gcompiled_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_gcomputation_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_gpu_test.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_graph_meta_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_kernel_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_mat_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_mock_kernels.hpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_opaque_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_plaidml_pipelines.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_planar_test.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_sample_pipelines.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_scalar_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_smoke_test.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_transform_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_typed_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gapi_util_tests.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/gpu/gapi_core_tests_gpu.cpp": [
+            89
+        ],
+        "@l./modules/gapi/test/gpu/gapi_imgproc_tests_gpu.cpp": [
+            89
+        ],
+        "@l./modules/gapi/test/gpu/gapi_operators_tests_gpu.cpp": [
+            89
+        ],
+        "@l./modules/gapi/test/infer/gapi_infer_ie_test.cpp": [
+            55
+        ],
+        "@l./modules/gapi/test/infer/gapi_infer_onnx_test.cpp": [
+            55
+        ],
+        "@l./modules/gapi/test/infer/gapi_infer_ov_tests.cpp": [
+            55
+        ],
+        "@l./modules/gapi/test/infer/gapi_infer_tests.cpp": [
+            55
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_backend_tests.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_dynamic_graph.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_executor_tests.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_garg_test.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_gmetaarg_test.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_gmodel_builder_test.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_island_fusion_tests.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_island_tests.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_pattern_matching_test.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_perform_substitution_test.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_proto_tests.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_recompilation_test.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_int_vectorref_test.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/internal/gapi_transactions_test.cpp": [
+            39
+        ],
+        "@l./modules/gapi/test/oak/gapi_tests_oak.cpp": [
+            101
+        ],
+        "@l./modules/gapi/test/opencl_kernels_test_gapi.hpp": [
+            28
+        ],
+        "@l./modules/gapi/test/own/conc_queue_tests.cpp": [
+            31
+        ],
+        "@l./modules/gapi/test/own/gapi_types_tests.cpp": [
+            31
+        ],
+        "@l./modules/gapi/test/own/last_written_value_tests.cpp": [
+            31
+        ],
+        "@l./modules/gapi/test/own/mat_tests.cpp": [
+            31
+        ],
+        "@l./modules/gapi/test/own/scalar_tests.cpp": [
+            31
+        ],
+        "@l./modules/gapi/test/own/thread_pool_tests.cpp": [
+            31
+        ],
+        "@l./modules/gapi/test/render/ftp_render_test.cpp": [
+            22
+        ],
+        "@l./modules/gapi/test/render/gapi_render_tests_ocv.cpp": [
+            22
+        ],
+        "@l./modules/gapi/test/rmat/rmat_integration_tests.cpp": [
+            83
+        ],
+        "@l./modules/gapi/test/rmat/rmat_test_common.hpp": [
+            83
+        ],
+        "@l./modules/gapi/test/rmat/rmat_tests.cpp": [
+            83
+        ],
+        "@l./modules/gapi/test/rmat/rmat_view_tests.cpp": [
+            83
+        ],
+        "@l./modules/gapi/test/s11n/gapi_s11n_tests.cpp": [
+            57
+        ],
+        "@l./modules/gapi/test/s11n/gapi_sample_pipelines_s11n.cpp": [
+            57
+        ],
+        "@l./modules/gapi/test/streaming/gapi_gstreamer_pipeline_facade_int_tests.cpp": [
+            25
+        ],
+        "@l./modules/gapi/test/streaming/gapi_gstreamersource_tests.cpp": [
+            25
+        ],
+        "@l./modules/gapi/test/streaming/gapi_streaming_queue_source_tests.cpp": [
+            25
+        ],
+        "@l./modules/gapi/test/streaming/gapi_streaming_sync_tests.cpp": [
+            25
+        ],
+        "@l./modules/gapi/test/streaming/gapi_streaming_tests.cpp": [
+            25
+        ],
+        "@l./modules/gapi/test/streaming/gapi_streaming_utils_test.cpp": [
+            25
+        ],
+        "@l./modules/gapi/test/streaming/gapi_streaming_vpl_core_test.cpp": [
+            25
+        ],
+        "@l./modules/gapi/test/streaming/gapi_streaming_vpl_data_provider.cpp": [
+            25
+        ],
+        "@l./modules/gapi/test/streaming/gapi_streaming_vpl_device_selector.cpp": [
+            25
+        ],
+        "@l./modules/gapi/test/streaming/gapi_streaming_vpp_preproc_test.cpp": [
+            25
+        ],
+        "@l./modules/gapi/test/test_main.cpp": [
+            28
+        ],
+        "@l./modules/gapi/test/test_precomp.hpp": [
+            28
+        ],
+        "@l./modules/gapi/test/util/any_tests.cpp": [
+            65
+        ],
+        "@l./modules/gapi/test/util/optional_tests.cpp": [
+            65
+        ],
+        "@l./modules/gapi/test/util/variant_tests.cpp": [
+            65
+        ],
+        "@l./modules/objdetect/include/opencv2/objdetect/aruco_detector.hpp": [
+            10
+        ],
+        "@l./modules/objdetect/include/opencv2/objdetect/barcode.hpp": [
+            10
+        ],
+        "@l./modules/objdetect/include/opencv2/objdetect/charuco_detector.hpp": [
+            10
+        ],
+        "@l./modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp": [
+            10
+        ],
+        "@l./modules/objdetect/include/opencv2/objdetect/face.hpp": [
+            10
+        ],
+        "@l./modules/objdetect/include/opencv2/objdetect/graphical_code_detector.hpp": [
+            10
+        ],
+        "@l./modules/objdetect/misc/java/src/cpp/objdetect_converters.cpp": [
+            91
+        ],
+        "@l./modules/objdetect/misc/java/src/cpp/objdetect_converters.hpp": [
+            91
+        ],
+        "@l./modules/objdetect/perf/opencl/perf_cascades.cpp": [
+            33
+        ],
+        "@l./modules/objdetect/perf/opencl/perf_hogdetect.cpp": [
+            33
+        ],
+        "@l./modules/objdetect/perf/perf_aruco.cpp": [
+            34
+        ],
+        "@l./modules/objdetect/perf/perf_barcode.cpp": [
+            34
+        ],
+        "@l./modules/objdetect/perf/perf_main.cpp": [
+            34
+        ],
+        "@l./modules/objdetect/perf/perf_precomp.hpp": [
+            34
+        ],
+        "@l./modules/objdetect/perf/perf_qrcode_pipeline.cpp": [
+            34
+        ],
+        "@l./modules/objdetect/src/aruco/apriltag/apriltag_quad_thresh.cpp": [
+            85
+        ],
+        "@l./modules/objdetect/src/aruco/apriltag/apriltag_quad_thresh.hpp": [
+            85
+        ],
+        "@l./modules/objdetect/src/aruco/apriltag/predefined_dictionaries_apriltag.hpp": [
+            85
+        ],
+        "@l./modules/objdetect/src/aruco/apriltag/unionfind.hpp": [
+            85
+        ],
+        "@l./modules/objdetect/src/aruco/apriltag/zarray.hpp": [
+            85
+        ],
+        "@l./modules/objdetect/src/aruco/apriltag/zmaxheap.cpp": [
+            85
+        ],
+        "@l./modules/objdetect/src/aruco/apriltag/zmaxheap.hpp": [
+            85
+        ],
+        "@l./modules/objdetect/src/aruco/aruco_board.cpp": [
+            84
+        ],
+        "@l./modules/objdetect/src/aruco/aruco_detector.cpp": [
+            84
+        ],
+        "@l./modules/objdetect/src/aruco/aruco_dictionary.cpp": [
+            84
+        ],
+        "@l./modules/objdetect/src/aruco/aruco_utils.cpp": [
+            84
+        ],
+        "@l./modules/objdetect/src/aruco/aruco_utils.hpp": [
+            84
+        ],
+        "@l./modules/objdetect/src/aruco/charuco_detector.cpp": [
+            84
+        ],
+        "@l./modules/objdetect/src/aruco/predefined_dictionaries.hpp": [
+            84
+        ],
+        "@l./modules/objdetect/src/barcode.cpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/abs_decoder.cpp": [
+            49
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/abs_decoder.hpp": [
+            49
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/common/hybrid_binarizer.cpp": [
+            88
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/common/hybrid_binarizer.hpp": [
+            88
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/common/super_scale.cpp": [
+            88
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/common/super_scale.hpp": [
+            88
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/common/utils.cpp": [
+            88
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/common/utils.hpp": [
+            88
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/ean13_decoder.cpp": [
+            49
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/ean13_decoder.hpp": [
+            49
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/ean8_decoder.cpp": [
+            49
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/ean8_decoder.hpp": [
+            49
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/upcean_decoder.cpp": [
+            49
+        ],
+        "@l./modules/objdetect/src/barcode_decoder/upcean_decoder.hpp": [
+            49
+        ],
+        "@l./modules/objdetect/src/barcode_detector/bardetect.cpp": [
+            78
+        ],
+        "@l./modules/objdetect/src/barcode_detector/bardetect.hpp": [
+            78
+        ],
+        "@l./modules/objdetect/src/cascadedetect.cpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/cascadedetect.hpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/cascadedetect_convert.cpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/detection_based_tracker.cpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/face_detect.cpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/face_recognize.cpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/graphical_code_detector.cpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/graphical_code_detector_impl.hpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/hog.cpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/main.cpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/precomp.hpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/qrcode.cpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/qrcode_encoder.cpp": [
+            50
+        ],
+        "@l./modules/objdetect/src/qrcode_encoder_table.inl.hpp": [
+            50
+        ],
+        "@l./modules/objdetect/test/opencl/test_hogdetector.cpp": [
+            110
+        ],
+        "@l./modules/objdetect/test/test_aruco_tutorial.cpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_aruco_utils.cpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_aruco_utils.hpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_arucodetection.cpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_barcode.cpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_boarddetection.cpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_cascadeandhog.cpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_charucodetection.cpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_face.cpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_main.cpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_precomp.hpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_qr_utils.hpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_qrcode.cpp": [
+            7
+        ],
+        "@l./modules/objdetect/test/test_qrcode_encode.cpp": [
+            7
+        ],
+        "@l./modules/stitching/include/opencv2/stitching.hpp": [
+            71
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/autocalib.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/blenders.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/camera.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/matchers.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/util.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/util_inl.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/warpers.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp": [
+            37
+        ],
+        "@l./modules/stitching/include/opencv2/stitching/warpers.hpp": [
+            74
+        ],
+        "@l./modules/stitching/perf/opencl/perf_stitch.cpp": [
+            96
+        ],
+        "@l./modules/stitching/perf/opencl/perf_warpers.cpp": [
+            96
+        ],
+        "@l./modules/stitching/perf/perf_estimators.cpp": [
+            18
+        ],
+        "@l./modules/stitching/perf/perf_main.cpp": [
+            18
+        ],
+        "@l./modules/stitching/perf/perf_matchers.cpp": [
+            18
+        ],
+        "@l./modules/stitching/perf/perf_precomp.hpp": [
+            18
+        ],
+        "@l./modules/stitching/perf/perf_stich.cpp": [
+            18
+        ],
+        "@l./modules/stitching/src/autocalib.cpp": [
+            60
+        ],
+        "@l./modules/stitching/src/blenders.cpp": [
+            60
+        ],
+        "@l./modules/stitching/src/camera.cpp": [
+            60
+        ],
+        "@l./modules/stitching/src/exposure_compensate.cpp": [
+            60
+        ],
+        "@l./modules/stitching/src/matchers.cpp": [
+            60
+        ],
+        "@l./modules/stitching/src/motion_estimators.cpp": [
+            60
+        ],
+        "@l./modules/stitching/src/precomp.hpp": [
+            60
+        ],
+        "@l./modules/stitching/src/seam_finders.cpp": [
+            60
+        ],
+        "@l./modules/stitching/src/stitcher.cpp": [
+            60
+        ],
+        "@l./modules/stitching/src/timelapsers.cpp": [
+            60
+        ],
+        "@l./modules/stitching/src/util.cpp": [
+            60
+        ],
+        "@l./modules/stitching/src/util_log.hpp": [
+            60
+        ],
+        "@l./modules/stitching/src/warpers.cpp": [
+            60
+        ],
+        "@l./modules/stitching/src/warpers_cuda.cpp": [
+            60
+        ],
+        "@l./modules/stitching/test/ocl/test_warpers.cpp": [
+            97
+        ],
+        "@l./modules/stitching/test/test_blenders.cpp": [
+            72
+        ],
+        "@l./modules/stitching/test/test_blenders.cuda.cpp": [
+            72
+        ],
+        "@l./modules/stitching/test/test_exposure_compensate.cpp": [
+            72
+        ],
+        "@l./modules/stitching/test/test_main.cpp": [
+            72
+        ],
+        "@l./modules/stitching/test/test_matchers.cpp": [
+            72
+        ],
+        "@l./modules/stitching/test/test_precomp.hpp": [
+            72
+        ],
+        "@l./modules/stitching/test/test_reprojection.cpp": [
+            72
+        ],
+        "@l./modules/stitching/test/test_stitcher.cpp": [
+            72
+        ],
+        "@l./modules/stitching/test/test_wave_correction.cpp": [
+            72
+        ]
+    },
+    "tags": [
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/perf/opencl",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/calib3d/src",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/include/opencv2/core/hal",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/calib3d/include/opencv2/calib3d",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/ocl",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/streaming/gstreamer",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/include/opencv2/core",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/test",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/streaming/onevpl/engine",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/3rdparty/vasot/src/common",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/include/opencv2/objdetect",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/streaming/onevpl/accelerators/surface",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/include/opencv2/core/detail",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/3rdparty/vasot/src/components/ot/kalman_filter",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/include/opencv2/core/utils",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/src/utils",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/include/opencv2/gapi/ocl",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/streaming/onevpl/accelerators",
+        "OpenCV_ConcreteArchitecture/stitching/stitching/perf",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/ov",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/src",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/include/opencv2/core/private",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/render",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/api",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/src/parallel",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/streaming",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/common",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/include/opencv2/gapi/render",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/calib3d/src/usac",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/render",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/own",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/executor",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/perf/opencl",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/perf",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/streaming/onevpl",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/cpu",
+        "OpenCV_ConcreteArchitecture/stitching/stitching/include/opencv2/stitching/detail",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/test",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/internal",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/cpu",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/include/opencv2/gapi",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/calib3d/perf",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/perf/cpu",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/perf/common",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/perf",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/include/opencv2/gapi/own",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/include/opencv2/gapi/util",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/include/opencv2/core/openvx",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/src/barcode_decoder",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/src",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/3rdparty/vasot/src/components/ot",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/calib3d/test",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/perf",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/test/ocl",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/infer",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/compiler",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/s11n",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/common",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src",
+        "OpenCV_ConcreteArchitecture/stitching/stitching/src",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/include/opencv2/gapi/infer",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/streaming/onevpl/engine/preproc",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/include/opencv2/core/opencl/runtime",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/utils",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/util",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/include/opencv2/gapi/streaming",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/fluid",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/onnx",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/ie",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/perf/internal",
+        "OpenCV_ConcreteArchitecture/stitching/stitching/include/opencv2",
+        "OpenCV_ConcreteArchitecture/stitching/stitching/test",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/streaming/onevpl/accelerators/utils",
+        "OpenCV_ConcreteArchitecture/stitching/stitching/include/opencv2/stitching",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/include/opencv2/core/parallel",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/src/opencl/runtime",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/include/opencv2/core/opencl",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/src/barcode_detector",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/compiler/passes",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/python",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/oak",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/3rdparty/vasot/src/components/ot/mtt",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/rmat",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/src/aruco",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/src/aruco/apriltag",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/streaming/onevpl/engine/decode",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/perf/cuda",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/src/barcode_decoder/common",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/gpu",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/plaidml",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/misc/java/src/cpp",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/include/opencv2/gapi/s11n",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/include/opencv2/core/opencl/runtime/autogenerated",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/streaming/onevpl/engine/transcode",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/ie/giebackend",
+        "OpenCV_ConcreteArchitecture/stitching/stitching/perf/opencl",
+        "OpenCV_ConcreteArchitecture/stitching/stitching/test/ocl",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/misc/java/src/cpp",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/streaming",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/executor",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/test/oak",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/perf/gpu",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/backends/streaming",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/perf/render",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/pysrc",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/src/streaming/onevpl/demux",
+        "OpenCV_ConcreteArchitecture/Core_Layer/core/src/opencl/runtime/autogenerated",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/calib3d/test/opencl",
+        "OpenCV_ConcreteArchitecture/GAPI_Framework/gapi/perf/streaming",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/objdetect/test/opencl",
+        "OpenCV_ConcreteArchitecture/Vision_and_Calibration/calib3d/perf/opencl",
+        "OpenCV_ConcreteArchitecture/Image_Processing/imgproc",
+        "OpenCV_ConcreteArchitecture/Machine_Learning/dnn",
+        "OpenCV_ConcreteArchitecture/Image_Processing/photo",
+        "OpenCV_ConcreteArchitecture/Image_Processing/features2d",
+        "OpenCV_ConcreteArchitecture/IO_and_UI/highgui",
+        "OpenCV_ConcreteArchitecture/Machine_Learning/ml",
+        "OpenCV_ConcreteArchitecture/ThirdParty_and_External",
+        "OpenCV_ConcreteArchitecture/Testing_Utilities",
+        "OpenCV_ConcreteArchitecture/IO_and_UI/videoio",
+        "OpenCV_ConcreteArchitecture/IO_and_UI/imgcodecs"
+    ]
+}
