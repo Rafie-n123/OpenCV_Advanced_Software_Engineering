@@ -1,0 +1,4 @@
+/Users/nrafie/Downloads/EECS 4314/opencv/modules/gapi/src/streaming/gstreamer/gstreamer_media_adapter.hpp
+/Users/nrafie/Downloads/EECS 4314/opencv/modules/gapi/src/streaming/gstreamer/gstreamersource_priv.hpp
+/Users/nrafie/Downloads/EECS 4314/opencv/modules/gapi/src/streaming/gstreamer/gstreamerptr.hpp
+/Users/nrafie/Downloads/EECS 4314/opencv/modules/gapi/src/streaming/gstreamer/gstreamer_pipeline_facade.hpp
