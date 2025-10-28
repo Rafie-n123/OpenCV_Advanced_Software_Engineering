@@ -887,7 +887,7 @@
   <codecheck_options/>
   <comparison_options
     comparison_db=""
-    git_repo="."
+    git_repo="./."
     git_commit=""
     diff_flags="1"/>
   <cpp_options
