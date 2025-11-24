@@ -18,7 +18,7 @@ ET.register_namespace('cpp', CPP_NS)
 ET.register_namespace('src', SRC_NS)
 
 def extract_dependencies(xml_file_path, output_csv_path):
-    print(f"Verarbeite Datei: {xml_file_path} ...")
+    print(f"Processing file: {xml_file_path} ...")
     
     try:
         with open(output_csv_path, 'w', newline='', encoding='utf-8') as csvfile:
@@ -33,7 +33,7 @@ def extract_dependencies(xml_file_path, output_csv_path):
             try:
                 event, root = next(context) 
             except StopIteration:
-                print("Fehler: XML Datei ist leer.")
+                print("Error: XML file empty.")
                 return
 
             for event, elem in context:
@@ -77,16 +77,16 @@ def extract_dependencies(xml_file_path, output_csv_path):
 
             if root is not None:
                 root.clear()
-            print(f"Fertig. Ergebnisse gespeichert in: {output_csv_path}")
+            print(f"Done. Results saved in:  {output_csv_path}")
 
     except FileNotFoundError:
-        print(f"Fehler: Datei '{xml_file_path}' nicht gefunden.")
+        print(f"Error: File '{xml_file_path}' not found.")
     except Exception as e:
-        print(f"Ein Fehler ist aufgetreten: {e}")
+        print(f"An Error ocurred: {e}")
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Verwendung: python opencv_parser.py <input_xml> <output_csv>")
+        print("Use: python opencv_parser.py <input_xml> <output_csv>")
         sys.exit(1)
     
     extract_dependencies(sys.argv[1], sys.argv[2])
