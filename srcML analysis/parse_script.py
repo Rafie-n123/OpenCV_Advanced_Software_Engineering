@@ -5,14 +5,14 @@ import sys
 SRC_NS = 'http://www.srcML.org/srcML/src'
 CPP_NS = 'http://www.srcML.org/srcML/cpp'
 
-FTN_UNIT = f'{{{SRC_NS}}}unit'
-FTN_INCLUDE = f'{{{CPP_NS}}}include'
-FTN_FILE = f'{{{CPP_NS}}}file'
-FTN_CALL = f'{{{SRC_NS}}}call'
-FTN_NAME = f'{{{SRC_NS}}}name'
-FTN_CLASS = f'{{{SRC_NS}}}class'
-FTN_STRUCT = f'{{{SRC_NS}}}struct'
-FTN_SUPER = f'{{{SRC_NS}}}super'
+UNIT = f'{{{SRC_NS}}}unit' # in which file are we
+INCLUDE = f'{{{CPP_NS}}}include' # include statement
+FILE = f'{{{CPP_NS}}}file' # which file is included
+CALL = f'{{{SRC_NS}}}call' # function call
+NAME = f'{{{SRC_NS}}}name' # name of the function that is called
+CLASS = f'{{{SRC_NS}}}class' # definition of a class (Source of inheritance)
+STRUCT = f'{{{SRC_NS}}}struct' # definition of a struct (Source of inheritance)
+SUPER = f'{{{SRC_NS}}}super' # inheritance list (contains the Parent/Target class)
 
 ET.register_namespace('cpp', CPP_NS)
 ET.register_namespace('src', SRC_NS)
@@ -39,38 +39,38 @@ def extract_dependencies(xml_file_path, output_csv_path):
             for event, elem in context:
                 
                 if event == "start":
-                    if elem.tag == FTN_UNIT and 'filename' in elem.attrib:
+                    if elem.tag == UNIT and 'filename' in elem.attrib:
                         current_file = elem.attrib['filename']
                         
                 if event == "end":
                     
-                    if elem.tag == FTN_INCLUDE:
-                        file_tag = elem.find(FTN_FILE)
+                    if elem.tag == INCLUDE:
+                        file_tag = elem.find(FILE)
                         if file_tag is not None and file_tag.text:
                             dep_target = file_tag.text.strip('"<> ')
                             writer.writerow([current_file, dep_target, "include"])
                         elem.clear()
 
-                    elif elem.tag == FTN_CLASS or elem.tag == FTN_STRUCT:
-                        class_name_tag = elem.find(f'{FTN_NAME}')
+                    elif elem.tag == CLASS or elem.tag == STRUCT:
+                        class_name_tag = elem.find(f'{NAME}')
                         source_name = class_name_tag.text if class_name_tag is not None else "Anonymous"
 
-                        super_tag = elem.find(FTN_SUPER)
+                        super_tag = elem.find(SUPER)
                         if super_tag is not None:
-                            base_name_tag = super_tag.find(f'.//{FTN_NAME}')
+                            base_name_tag = super_tag.find(f'.//{NAME}')
                             if base_name_tag is not None and base_name_tag.text:
                                 base_name = base_name_tag.text.strip()
                                 writer.writerow([f"{current_file}::{source_name}", base_name, "inherit"])
                         
                         elem.clear()
 
-                    elif elem.tag == FTN_CALL:
-                        name_tag = elem.find(FTN_NAME)
+                    elif elem.tag == CALL:
+                        name_tag = elem.find(NAME)
                         if name_tag is not None and name_tag.text:
                             writer.writerow([current_file, name_tag.text, "call"])
                         elem.clear()
 
-                    elif elem.tag == FTN_UNIT:
+                    elif elem.tag == UNIT:
                         elem.clear()
                         if root is not None:
                             root.clear()
