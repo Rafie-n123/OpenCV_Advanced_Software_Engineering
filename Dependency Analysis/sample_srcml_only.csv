@@ -1,0 +1,16 @@
+src_file,dst_header,region
+modules/dnn/misc/tensorflow/tensor_shape.pb.cc,wire_format.h,srcml_only
+modules/dnn/misc/tensorflow/op_def.pb.cc,port_undef.inc,srcml_only
+modules/dnn/misc/tensorflow/versions.pb.cc,reflection_ops.h,srcml_only
+modules/dnn/misc/tensorflow/graph.pb.cc,reflection_ops.h,srcml_only
+modules/dnn/misc/tensorflow/attr_value.pb.cc,port_undef.inc,srcml_only
+modules/dnn/misc/tensorflow/versions.pb.cc,wire_format.h,srcml_only
+modules/dnn/misc/onnx/opencv-onnx.pb.cc,extension_set.h,srcml_only
+modules/dnn/misc/tensorflow/graph.pb.cc,wire_format.h,srcml_only
+modules/dnn/misc/tensorflow/attr_value.pb.cc,coded_stream.h,srcml_only
+modules/dnn/misc/tensorflow/tensor.pb.cc,generated_message_reflection.h,srcml_only
+modules/dnn/misc/tensorflow/types.pb.cc,wire_format_lite.h,srcml_only
+modules/dnn/misc/onnx/opencv-onnx.pb.cc,coded_stream.h,srcml_only
+modules/dnn/misc/tensorflow/op_def.pb.cc,extension_set.h,srcml_only
+modules/dnn/misc/tensorflow/tensor_shape.pb.cc,extension_set.h,srcml_only
+modules/dnn/misc/tensorflow/graph.pb.cc,coded_stream.h,srcml_only

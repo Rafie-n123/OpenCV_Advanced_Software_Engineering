@@ -1,0 +1,16 @@
+src_file,dst_header,region
+3rdparty/libjpeg-turbo/src/jchuff.c,jutils.c,understand_only
+modules/imgproc/test/ocl/test_medianfilter.cpp,median_blur.dispatch.cpp,understand_only
+modules/core/include/opencv2/core/persistence.hpp,system.cpp,understand_only
+modules/ml/src/svmsgd.cpp,cvstd_wrapper.hpp,understand_only
+modules/imgproc/src/thresh.cpp,copy.cpp,understand_only
+modules/gapi/src/backends/cpu/gcpuimgproc.cpp,geometry.cpp,understand_only
+3rdparty/protobuf/src/google/protobuf/io/coded_stream.cc,zero_copy_stream.cc,understand_only
+modules/core/src/batch_distance.cpp,copy.cpp,understand_only
+modules/imgproc/test/test_color.cpp,mat.hpp,understand_only
+modules/video/test/test_main.cpp,ts_gtest.h,understand_only
+3rdparty/libpng/pngpread.c,pngrtran.c,understand_only
+modules/ml/test/test_lr.cpp,test_utils.cpp,understand_only
+modules/calib3d/test/test_fundam.cpp,types.hpp,understand_only
+apps/interactive-calibration/frameProcessor.cpp,imgwarp.cpp,understand_only
+modules/imgproc/src/generalized_hough.cpp,matrix.cpp,understand_only

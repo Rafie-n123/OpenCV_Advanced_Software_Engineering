@@ -1,0 +1,16 @@
+src_file,dst_header,region
+modules/gapi/test/rmat/rmat_integration_tests.cpp,rmat.hpp,srcml_understand
+modules/features2d/test/test_nearestneighbors.cpp,test_precomp.hpp,srcml_understand
+modules/stitching/src/motion_estimators.cpp,calib3d_c.h,srcml_understand
+modules/dnn/src/layers/gather_layer.cpp,layers_common.hpp,srcml_understand
+modules/dnn/src/layers/accum_layer.cpp,layers_common.hpp,srcml_understand
+modules/gapi/include/opencv2/gapi/gcall.hpp,gopaque.hpp,srcml_understand
+modules/gapi/include/opencv2/gapi/gcall.hpp,gscalar.hpp,srcml_understand
+modules/video/test/test_OF_accuracy.cpp,test_precomp.hpp,srcml_understand
+modules/stitching/src/precomp.hpp,timelapsers.hpp,srcml_understand
+modules/core/src/matrix.cpp,precomp.hpp,srcml_understand
+modules/gapi/src/api/gkernel.cpp,logger.hpp,srcml_understand
+modules/core/src/va_intel.cpp,opencl_kernels_core.hpp,srcml_understand
+modules/dnn/src/ie_ngraph.hpp,op_inf_engine.hpp,srcml_understand
+modules/flann/include/opencv2/flann/kmeans_index.h,nn_index.h,srcml_understand
+modules/videoio/src/precomp.hpp,configuration.private.hpp,srcml_understand

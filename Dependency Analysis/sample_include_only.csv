@@ -1,0 +1,16 @@
+src_file,dst_header,region
+3rdparty/include/opencl/1.2/CL/cl_dx9_media_sharing.h,cl.h,include_only
+samples/cpp/tutorial_code/Histograms_Matching/calcHist_Demo.cpp,imgcodecs.hpp,include_only
+3rdparty/libjpeg-turbo/src/jmemmgr.c,limits.h,include_only
+3rdparty/libwebp/src/enc/picture_csp_enc.c,assert.h,include_only
+samples/winrt/ImageManipulations/MediaExtensions/OcvTransform/OcvTransform.h,new,include_only
+samples/cpp/phase_corr.cpp,core.hpp,include_only
+3rdparty/protobuf/src/google/protobuf/map_type_handler.h,coded_stream.h,include_only
+3rdparty/zlib-ng/insert_string.c,insert_string_tpl.h,include_only
+3rdparty/libjasper/jp2_enc.c,jas_icc.h,include_only
+samples/cpp/tutorial_code/video/meanshift/camshift.cpp,highgui.hpp,include_only
+3rdparty/include/opencl/1.2/CL/cl_d3d11_ext.h,d3d11.h,include_only
+samples/winrt_universal/VideoCaptureXAML/video_capture_xaml/video_capture_xaml.Shared/App.xaml.cpp,pch.h,include_only
+3rdparty/libjasper/jpc_t1enc.c,jpc_enc.h,include_only
+3rdparty/libpng/pngpriv.h,string.h,include_only
+hal/riscv-rvv/src/imgproc/median_blur.cpp,rvv_hal.hpp,include_only
